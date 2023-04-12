@@ -1,0 +1,120 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+    </style>
+
+    <style name="ActionButtonOverflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/toolbar_color</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+    </style>
+
+    <style name="AppTheme.Colors_01">
+        <item name="colorPrimary">@color/theme_primary_01</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_01</item>
+        <item name="colorAccent">@color/theme_accent_01</item>
+    </style>
+
+    <style name="AppTheme.Colors_02">
+        <item name="colorPrimary">@color/theme_primary_02</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_02</item>
+        <item name="colorAccent">@color/theme_accent_02</item>
+    </style>
+
+    <style name="AppTheme.Colors_03">
+        <item name="colorPrimary">@color/theme_primary_03</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_03</item>
+        <item name="colorAccent">@color/theme_accent_03</item>
+    </style>
+
+    <style name="AppTheme.Colors_04">
+        <item name="colorPrimary">@color/theme_primary_04</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_04</item>
+        <item name="colorAccent">@color/theme_accent_04</item>
+    </style>
+
+    <style name="AppTheme.Colors_05">
+        <item name="colorPrimary">@color/theme_primary_05</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_05</item>
+        <item name="colorAccent">@color/theme_accent_05</item>
+    </style>
+
+    <style name="AppTheme.Colors_06">
+        <item name="colorPrimary">@color/theme_primary_06</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_06</item>
+        <item name="colorAccent">@color/theme_accent_06</item>
+    </style>
+
+    <style name="AppTheme.Colors_07">
+        <item name="colorPrimary">@color/theme_primary_07</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_07</item>
+        <item name="colorAccent">@color/theme_accent_07</item>
+    </style>
+
+    <style name="AppTheme.Colors_08">
+        <item name="colorPrimary">@color/theme_primary_08</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_08</item>
+        <item name="colorAccent">@color/theme_accent_08</item>
+    </style>
+
+    <style name="AppTheme.Colors_09">
+        <item name="colorPrimary">@color/theme_primary_09</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_09</item>
+        <item name="colorAccent">@color/theme_accent_09</item>
+    </style>
+
+    <style name="AppTheme.Colors_10">
+        <item name="colorPrimary">@color/theme_primary_10</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_10</item>
+        <item name="colorAccent">@color/theme_accent_10</item>
+    </style>
+
+    <style name="AppTheme.Colors_11">
+        <item name="colorPrimary">@color/theme_primary_11</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_11</item>
+        <item name="colorAccent">@color/theme_accent_11</item>
+    </style>
+
+    <style name="AppTheme.Colors_12">
+        <item name="colorPrimary">@color/theme_primary_12</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_12</item>
+        <item name="colorAccent">@color/theme_accent_12</item>
+    </style>
+
+    <style name="AppTheme.Colors_13">
+        <item name="colorPrimary">@color/theme_primary_13</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_13</item>
+        <item name="colorAccent">@color/theme_accent_13</item>
+    </style>
+
+    <style name="AppTheme.Colors_14">
+        <item name="colorPrimary">@color/theme_primary_14</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_14</item>
+        <item name="colorAccent">@color/theme_accent_14</item>
+    </style>
+
+    <style name="AppTheme.Colors_15">
+        <item name="colorPrimary">@color/theme_primary_15</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_15</item>
+        <item name="colorAccent">@color/theme_accent_15</item>
+    </style>
+
+    <style name="AppTheme.Colors_16">
+        <item name="colorPrimary">@color/theme_primary_16</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_16</item>
+        <item name="colorAccent">@color/theme_accent_16</item>
+    </style>
+
+    <style name="AppTheme.Colors_17">
+        <item name="colorPrimary">@color/theme_primary_17</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_17</item>
+        <item name="colorAccent">@color/theme_accent_17</item>
+    </style>
+
+    <style name="AppTheme.Colors_18">
+        <item name="colorPrimary">@color/theme_primary_18</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark_18</item>
+        <item name="colorAccent">@color/theme_accent_18</item>
+    </style>
+</resources>

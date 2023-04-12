@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SettingItem">
+        <attr name="st_title" format="string" />
+        <attr name="st_summary" format="string" />
+        <attr name="st_checked" format="boolean" />
+        <attr name="st_enabled" format="boolean" />
+
+        <attr name="st_icon" format="reference" />
+        <attr name="st_icon_tint" format="color" />
+        <attr name="st_widget" format="enum">
+            <enum name="None" value="0" />
+            <enum name="Icon" value="1" />
+            <enum name="CheckBox" value="2" />
+            <enum name="RadioBox" value="3" />
+            <enum name="Switch" value="4" />
+        </attr>
+
+        <attr name="st_icon_end" format="reference" />
+        <attr name="st_icon_tint_end" format="color" />
+        <attr name="st_widget_end" format="enum">
+            <enum name="None" value="0" />
+            <enum name="Icon" value="1" />
+            <enum name="CheckBox" value="2" />
+            <enum name="RadioBox" value="3" />
+            <enum name="Switch" value="4" />
+        </attr>
+    </declare-styleable>
+
+</resources>

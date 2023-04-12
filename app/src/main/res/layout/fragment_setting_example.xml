@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        style="@style/AppBarLayoutStyle">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/AppToolbar.NavBack"
+            app:title="toolbar_settings" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="4dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        tools:text="Display"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="64dp"
+                        android:paddingTop="20dp"
+                        android:paddingEnd="16dp"
+                        android:textColor="?android:attr/textColorPrimary"
+                        android:textSize="22sp" />
+
+                    <com.mct.autotask.presentation.view.common.SettingItem
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:st_checked="true"
+                        app:st_summary="Select the primaryColor of the Select the primaryColor of the Select the primaryColor of the Select "
+                        app:st_title="Theme" />
+
+                    <com.mct.autotask.presentation.view.common.SettingItem
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:st_checked="true"
+                        app:st_icon="@drawable/ic_brightness"
+                        app:st_summary="Select the primaryColor of the Select the primaryColor of the Select the primaryColor of the Select "
+                        app:st_title="Theme" />
+
+                    <com.mct.autotask.presentation.view.common.SettingItem
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:st_checked="true"
+                        app:st_icon="@drawable/ic_brightness"
+                        app:st_icon_end="@drawable/ic_brightness"
+                        app:st_summary="Select the primaryColor of the Select the primaryColor of the Select the primaryColor of the Select "
+                        app:st_title="Theme"
+                        app:st_widget_end="Icon" />
+
+                    <com.mct.autotask.presentation.view.common.SettingItem
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:st_summary="Select the primaryColor of the Select the primaryColor of the Select the primaryColor of the Select "
+                        app:st_title="Theme"
+                        app:st_widget="RadioBox"
+                        app:st_widget_end="RadioBox" />
+
+                    <com.mct.autotask.presentation.view.common.SettingItem
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:st_summary="Select the primaryColor of the Select the primaryColor of the Select the primaryColor of the Select "
+                        app:st_title="Theme"
+                        app:st_widget="CheckBox"
+                        app:st_widget_end="CheckBox" />
+
+                    <com.mct.autotask.presentation.view.common.SettingItem
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:st_summary="Select the primaryColor of the primaryColor of the Select the primaryColor of the Select "
+                        app:st_title="Theme "
+                        app:st_widget="Switch"
+                        app:st_widget_end="Switch" />
+
+                    <com.mct.autotask.presentation.view.common.SettingItem
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:st_enabled="false"
+                        app:st_summary="Select the primaryColor of the primaryColor of the Select the primaryColor of the Select "
+                        app:st_title="Theme "
+                        app:st_widget="CheckBox"
+                        app:st_widget_end="CheckBox" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

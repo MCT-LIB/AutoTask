@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- mix -->
+    <string name="app_name">AutoTask</string>
+    <string name="content_desc_back">Quay lại</string>
+    <string name="toast_back_press">Nhấn lại lần nữa để thoát!</string>
+    <string name="accessibility_service_label">Auto Task</string>
+    <string name="accessibility_service_description">Dịch vụ trợ năng cho phép ứng dụng có thể thực hiện các hành động click, dán văn bản…\n\nDữ liệu không được thu thập từ ứng dụng này.</string>
+
+    <!-- root -->
+    <string name="home_tab_scenarios">Kịch bản</string>
+    <string name="home_tab_settings">Cài đặt</string>
+
+    <!-- settings -->
+    <string name="toolbar_settings_theme">Chủ đề</string>
+    <string name="toolbar_settings_color">Màu sắc chính</string>
+    <string name="toolbar_settings_language">Ngôn ngữ</string>
+    <string name="toolbar_settings_permission">Các quyền</string>
+
+    <string name="settings_big_title_necessary">Cần thiết</string>
+    <string name="settings_title_premium">Cao cấp</string>
+    <string name="settings_title_premium_summary">Không giới hạn kịch bản, hành động\nXóa quảng cáo…</string>
+    <string name="settings_title_permission">Cấp quyền</string>
+    <string name="settings_title_permission_summary">Các quyền ứng dụng cần được cấp</string>
+
+    <string name="settings_big_title_display">Hiển thị</string>
+    <string name="settings_title_color">Màu sắc chính</string>
+    <string name="settings_title_color_summary">Chọn màu chính của ứng dụng</string>
+    <string name="settings_title_theme">Chủ đề</string>
+    <string name="settings_title_theme_summary">Chọn chủ đề của ứng dụng</string>
+    <string name="settings_title_language">Ngôn ngữ</string>
+    <string name="settings_title_language_summary">Chọn ngôn ngữ hiển thị</string>
+
+    <string name="settings_permission_title_overlay">Lớp phủ</string>
+    <string name="settings_permission_title_overlay_summary">Quyền lớp phủ cho phép ứng dụng này hiển thị menu trên các ứng dụng khác.</string>
+    <string name="settings_permission_title_accessibility">Dịch vụ trợ năng</string>
+    <string name="settings_permission_title_accessibility_summary">Dịch vụ trợ năng cho phép ứng dụng có thể thực hiện các hành động click, dán văn bản…</string>
+    <string name="settings_theme_title_auto">Tự động</string>
+    <string name="settings_theme_title_auto_summary">Theo chủ đề của điện thoại</string>
+    <string name="settings_theme_title_dark">Tối</string>
+    <string name="settings_theme_title_dark_summary">Chủ đề tối</string>
+    <string name="settings_theme_title_light">Sáng</string>
+    <string name="settings_theme_title_light_summary">Chủ đề sáng</string>
+    <string name="settings_color_menu_span_count_n">%d cột</string>
+    <string name="settings_language_title_system_lang">Ngôn ngữ hệ thống</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        style="@style/AppBarLayoutStyle">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/AppToolbar.NavBack"
+            app:title="@string/toolbar_settings_permission" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="4dp">
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.mct.autotask.presentation.view.common.SettingItem
+                    android:id="@+id/si_overlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:st_icon="@drawable/ic_layer"
+                    app:st_summary="@string/settings_permission_title_overlay_summary"
+                    app:st_title="@string/settings_permission_title_overlay"
+                    app:st_widget="Icon"
+                    app:st_widget_end="Switch" />
+
+                <com.mct.autotask.presentation.view.common.SettingItem
+                    android:id="@+id/si_accessibility"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:st_icon="@drawable/ic_accessibility"
+                    app:st_summary="@string/settings_permission_title_accessibility_summary"
+                    app:st_title="@string/settings_permission_title_accessibility"
+                    app:st_widget="Icon"
+                    app:st_widget_end="Switch" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- mix -->
+    <string name="app_name">AutoTask</string>
+    <string name="content_desc_back">Back</string>
+    <string name="toast_back_press">Back again to exits!</string>
+    <string name="accessibility_service_label">Auto Task</string>
+    <string name="accessibility_service_description">Accessibility services allow applications to perform actions to click, paste text…\n\nNo data will be collected from this application.</string>
+
+    <!-- root -->
+    <string name="home_tab_scenarios">Scenarios</string>
+    <string name="home_tab_settings">Settings</string>
+
+    <!-- settings -->
+    <string name="toolbar_settings_theme">Theme</string>
+    <string name="toolbar_settings_color">Primary colors</string>
+    <string name="toolbar_settings_language">Language</string>
+    <string name="toolbar_settings_permission">Permissions</string>
+
+    <string name="settings_big_title_necessary">Necessary</string>
+    <string name="settings_title_premium">Premium</string>
+    <string name="settings_title_premium_summary">Unlimited scenarios, actions\nRemove ads…</string>
+    <string name="settings_title_permission">Grant permission</string>
+    <string name="settings_title_permission_summary">App permissions need to be granted</string>
+
+    <string name="settings_big_title_display">Display</string>
+    <string name="settings_title_color">Primary colors</string>
+    <string name="settings_title_color_summary">Choose the app\'s primary colors</string>
+    <string name="settings_title_theme">Theme</string>
+    <string name="settings_title_theme_summary">Choose the app\'s theme</string>
+    <string name="settings_title_language">Language</string>
+    <string name="settings_title_language_summary">Choose the display language</string>
+
+    <string name="settings_permission_title_overlay">Overlay</string>
+    <string name="settings_permission_title_overlay_summary">The overlay permission allows this application to display a menu over other apps.</string>
+    <string name="settings_permission_title_accessibility">Accessibility service</string>
+    <string name="settings_permission_title_accessibility_summary">Accessibility services allow applications to perform actions to click, paste text…</string>
+    <string name="settings_theme_title_auto">Auto</string>
+    <string name="settings_theme_title_auto_summary">Follow your system settings</string>
+    <string name="settings_theme_title_dark">Dark</string>
+    <string name="settings_theme_title_dark_summary">Dark theme</string>
+    <string name="settings_theme_title_light">Light</string>
+    <string name="settings_theme_title_light_summary">Light theme</string>
+    <string name="settings_color_menu_span_count_n">%d columns</string>
+    <string name="settings_language_title_system_lang">System language</string>
+
+</resources>
